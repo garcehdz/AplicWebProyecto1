@@ -1,0 +1,54 @@
+html, body
+{
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+
+body
+{
+	background-color:#E0E0E0;
+}
+
+#tblLogin
+{
+	width:350px;
+	margin-top:150px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#A097AD;
+}
+
+#tblLogin tr td, #tblLogin tr th
+{
+	padding:5px;
+}
+
+#tblLogin tr th
+{
+	background-color:#685F76;
+	color:#FFFFFF;
+}
+
+.left
+{
+	text-align:left;
+}
+
+.right
+{
+	text-align:right;
+}
+
+input[type="text"], input[type="password"], select
+{
+	width:150px;
+	padding:3px;
+	margin:2px;
+}
+
+input[type="submit"], input[type="button"], button
+{
+	padding:5px;
+	margin:5px;
+}

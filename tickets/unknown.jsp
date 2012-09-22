@@ -1,0 +1,1 @@
+<html>	<head>		<title>Sistema de Tiquetes</title>		<link href="/styles.css" rel="stylesheet" type="text/css"/>	</head>	<body onload="document.body.innerHTML += '<h2>' + window.location.href + '</h2>'">		<h1>404!</h1>	</body></html>

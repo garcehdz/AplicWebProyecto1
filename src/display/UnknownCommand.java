@@ -1,0 +1,1 @@
+package display;import java.io.*;import javax.servlet.*;/** * Clase que sirve para redirigir el error http 404 * @author Luis Roldan Chacon * @author Gilberth Arce Hernandez */public class UnknownCommand extends FrontCommand {  public void process() throws ServletException, IOException {    forward("/unknown.jsp");  }}
